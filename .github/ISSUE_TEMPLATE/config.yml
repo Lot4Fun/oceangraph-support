@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OceanGraph App Guide
+    url: https://docs.oceangraph.io/
+    about: Check the public documentation before opening a support issue.
+  - name: Private support
+    url: https://docs.oceangraph.io/contact-information/
+    about: Use this contact path for sensitive or account-specific inquiries.
+

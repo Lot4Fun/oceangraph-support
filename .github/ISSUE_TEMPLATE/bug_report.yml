@@ -1,0 +1,83 @@
+name: Bug report
+description: Report something that is not working as expected.
+title: "[Bug]: "
+labels:
+  - bug
+  - needs triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include passwords, API keys, tokens,
+        session cookies, personal data, or private research data in this public
+        issue.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is the problem?
+      placeholder: Describe the issue in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that trigger the problem.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page or feature
+      description: Which OceanGraph page, feature, or guide page were you using?
+      placeholder: "Example: Visual Lab, Analysis Lab, https://docs.oceangraph.io/..."
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      placeholder: "Example: Chrome 125, Safari 17, Firefox 126"
+    validations:
+      required: false
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: "Example: macOS, Windows, Ubuntu, iOS, Android"
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recordings
+      description: Drag and drop screenshots or recordings here if they help.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public issue checklist
+      options:
+        - label: I have not included passwords, tokens, session cookies, or private data.
+          required: true
+

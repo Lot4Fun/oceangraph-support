@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest a new feature or an improvement.
+title: "[Feature]: "
+labels:
+  - feature request
+  - needs triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for user-facing feature requests and workflow
+        improvements. Do not include private data or internal implementation
+        details from private repositories.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What are you trying to do, and what is difficult today?
+      placeholder: Describe the workflow or limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: What would you like OceanGraph to support?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Are there existing workarounds or related tools?
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots, links, or examples if useful.
+    validations:
+      required: false
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public issue checklist
+      options:
+        - label: I have not included passwords, tokens, session cookies, or private data.
+          required: true
+

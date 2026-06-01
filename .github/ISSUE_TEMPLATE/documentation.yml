@@ -1,0 +1,30 @@
+name: Documentation feedback
+description: Report unclear, missing, or outdated documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+  - needs triage
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: Page
+      description: Which documentation page needs attention?
+      placeholder: "Paste a docs.oceangraph.io URL or describe the page."
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+      description: What is unclear, missing, incorrect, or outdated?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: What should the documentation say instead?
+    validations:
+      required: false
+
