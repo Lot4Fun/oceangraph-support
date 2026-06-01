@@ -6,12 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Issue を作成する前に https://docs.oceangraph.io/ を確認してください。
-
+        Issue を作成する前に https://docs.oceangraph.io/ を確認してください。<br>
         Please check https://docs.oceangraph.io/ before opening an issue.
 
-        この Issue は公開されます。個人情報や非公開情報は含めないでください。
-
+        この Issue は公開されます。個人情報や非公開情報は含めないでください。<br>
         This issue is public. Do not include personal data or private information.
   - type: textarea
     id: question
