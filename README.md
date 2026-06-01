@@ -2,23 +2,20 @@
 
 This repository is the public support desk for OceanGraph users.
 
-Use this repository to report bugs, request features, ask usage questions, or
-suggest documentation improvements for:
+Use this repository to report bugs, request features, ask usage questions, or suggest documentation improvements for:
 
-- OceanGraph: https://oceangraph.io/
-- OceanGraph App Guide: https://docs.oceangraph.io/
+- OceanGraph: `https://oceangraph.io/`
+- OceanGraph App Guide: `https://docs.oceangraph.io/`
 
-The application source code is maintained separately. This repository is only
-for public support and issue tracking.
+The application source code is maintained separately. This repository is only for public support and issue tracking.
 
 ## Before Opening an Issue
 
 Please check the App Guide first:
 
-https://docs.oceangraph.io/
+`https://docs.oceangraph.io/`
 
-If the issue is about how to use OceanGraph, include the page or workflow you
-were using and what you expected to happen.
+If the issue is about how to use OceanGraph, include the page or workflow you were using and what you expected to happen.
 
 ## What to Include
 
@@ -55,6 +52,4 @@ support(at)unvelyze.com
 
 The initial label set is documented in [LABELS.md](LABELS.md).
 
-New issues should usually start with `needs triage`. Maintainers can add
-`bug`, `feature request`, `question`, or `documentation` after review.
-
+New issues should usually start with `needs triage`. Maintainers can add `bug`, `feature request`, `question`, or `documentation` after review.

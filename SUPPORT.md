@@ -1,7 +1,6 @@
 # Support Policy
 
-This repository accepts public support issues for OceanGraph and the OceanGraph
-App Guide.
+This repository accepts public support issues for OceanGraph and the OceanGraph App Guide.
 
 ## Public Issues
 
@@ -24,5 +23,4 @@ support(at)unvelyze.com
 
 The App Guide is available at:
 
-https://docs.oceangraph.io/
-
+`https://docs.oceangraph.io/`

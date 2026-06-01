@@ -9,4 +9,3 @@ Create these labels in the `Lot4Fun/oceangraph-support` repository.
 | `feature request` | `#A2EEEF` | Request for new or improved functionality. |
 | `question` | `#D876E3` | Usage question or support request. |
 | `documentation` | `#0075CA` | Documentation issue or improvement. |
-
