@@ -1,7 +1,7 @@
-# セキュリティ方針 / Security Policy
+# セキュリティ報告 / Security Reporting
 
-セキュリティ上の脆弱性は、公開 GitHub Issue に投稿しないでください。<br>
-Do not report security vulnerabilities in public GitHub issues.
+セキュリティ上の問題は、公開 GitHub Issue に投稿しないでください。<br>
+Do not report security issues in public GitHub issues.
 
 OceanGraph のセキュリティ上の問題を見つけた場合は、以下の連絡先に報告してください。<br>
 If you believe you have found a security issue in OceanGraph, contact:

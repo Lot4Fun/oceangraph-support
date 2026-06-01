@@ -15,5 +15,5 @@ Public issues can be read by anyone. Do not include personal data, credentials, 
 
 - [OceanGraph](https://oceangraph.io/)
 - [OceanGraph App Guide](https://docs.oceangraph.io/)
-- [SUPPORT.md](SUPPORT.md): サポート方針 / Support policy
-- [SECURITY.md](SECURITY.md): セキュリティ報告 / Security reporting
+- [support/SUPPORT.md](support/SUPPORT.md): サポート方針 / Support policy
+- [support/SECURITY.md](support/SECURITY.md): セキュリティ報告 / Security reporting

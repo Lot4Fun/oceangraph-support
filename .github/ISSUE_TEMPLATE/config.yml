@@ -4,5 +4,8 @@ contact_links:
     url: https://docs.oceangraph.io/
     about: Issue を作成する前に公開ドキュメントを確認してください。 / Check the public documentation before opening a support issue.
   - name: 非公開サポート / Private support
-    url: https://docs.oceangraph.io/contact-information/
-    about: アカウント固有の内容や機密情報はこちらから連絡してください。 / Use this contact option for sensitive or account-specific inquiries.
+    url: https://github.com/Lot4Fun/oceangraph-support/blob/main/support/SUPPORT.md
+    about: アカウント固有の内容や機密情報はこちらを確認してください。 / Review this page for sensitive or account-specific inquiries.
+  - name: セキュリティ報告 / Security report
+    url: https://github.com/Lot4Fun/oceangraph-support/blob/main/support/SECURITY.md
+    about: セキュリティ上の問題は公開 Issue ではなくこちらを確認してください。 / Review this page before reporting security issues.
