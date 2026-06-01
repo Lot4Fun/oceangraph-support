@@ -16,5 +16,5 @@ Labels are used only for issue categories, not status.
 | --- | --- | --- |
 | `CS: bug` | `#B60205` | 期待どおりに動作しない問題。 / Something is not working as expected. |
 | `CS: feature request` | `#0E8A16` | 新機能または改善の要望。 / Request for new or improved functionality. |
-| `CS: question` | `#D876E3` | 使い方や仕様に関する質問。 / Usage or specification question. |
-| `CS: documentation` | `#0075CA` | ドキュメントの問題または改善。 / Documentation issue or improvement. |
+| `CS: question` | `#5319E7` | 使い方や仕様に関する質問。 / Usage or specification question. |
+| `CS: documentation` | `#1D76DB` | ドキュメントの問題または改善。 / Documentation issue or improvement. |
