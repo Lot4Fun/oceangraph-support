@@ -8,6 +8,7 @@ body:
       value: |
         この Issue は公開されます。パスワード、API キー、トークン、個人情報、
         非公開リポジトリの内部情報は含めないでください。
+
         This issue is public. Do not include passwords, API keys, tokens,
         personal data, or private repository details.
   - type: textarea
