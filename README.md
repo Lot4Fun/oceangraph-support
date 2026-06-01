@@ -1,55 +1,50 @@
 # OceanGraph Support
 
+このリポジトリは、OceanGraph ユーザー向けの公開サポート窓口です。
 This repository is the public support desk for OceanGraph users.
 
-Use this repository to report bugs, request features, ask usage questions, or suggest documentation improvements for:
+## 対象 / Scope
+
+以下に関する公開 Issue を受け付けます。
+Open a public issue for:
+
+- 不具合報告 / Bug reports
+- 機能要望 / Feature requests
+- 使い方や仕様に関する質問 / Usage or specification questions
+- ドキュメント改善 / Documentation improvements
+
+関連サイト:
+Related sites:
 
 - OceanGraph: `https://oceangraph.io/`
 - OceanGraph App Guide: `https://docs.oceangraph.io/`
 
-The application source code is maintained separately. This repository is only for public support and issue tracking.
+## Issue を作成する前に / Before Opening an Issue
 
-## Before Opening an Issue
-
-Please check the App Guide first:
+まず公開ドキュメントを確認してください。
+Check the public documentation first:
 
 `https://docs.oceangraph.io/`
 
-If the issue is about how to use OceanGraph, include the page or workflow you were using and what you expected to happen.
+Issue を作成する場合は、内容に合うテンプレートを選択してください。
+When opening an issue, choose the template that matches your request.
 
-## What to Include
+## 公開 Issue に含めない情報 / Do Not Post Sensitive Information
 
-For bug reports, include:
+公開 Issue は誰でも閲覧できます。以下の情報は含めないでください。
+Public issues can be read by anyone. Do not include:
 
-- A short description of the problem
-- Steps to reproduce it
-- What you expected to happen
-- What actually happened
-- Browser and operating system
-- Screenshots or screen recordings, if helpful
+- パスワード、API キー、トークン、セッション Cookie / Passwords, API keys, tokens, or session cookies
+- 個人情報や非公開データ / Personal data or private data
+- アカウント固有の内容や機密情報 / Account-specific or sensitive information
+- 非公開リポジトリの内部情報 / Internal details from private repositories
 
-For feature requests, include:
+非公開の相談は、公開 Issue ではなく非公開サポートを使用してください。
+Use private support instead of public issues for private inquiries.
 
-- The workflow or problem you want to improve
-- Why the current behavior is not enough
-- The outcome you would like to see
+`support(at)unvelyze.com`
 
-## Do Not Post Sensitive Information
+## 関連ドキュメント / Related Documents
 
-Do not include private or sensitive information in public issues, including:
-
-- Passwords, API keys, tokens, or session cookies
-- Personal data or private research data
-- Account details that should not be public
-- Internal implementation details from private repositories
-- Full URLs that contain private query parameters
-
-If you need to discuss a sensitive issue, contact support instead:
-
-support(at)unvelyze.com
-
-## Labels
-
-The initial label set is documented in [LABELS.md](LABELS.md).
-
-New issues should usually start with `needs triage`. Maintainers can add `bug`, `feature request`, `question`, or `documentation` after review.
+- [SUPPORT.md](SUPPORT.md): サポート方針 / Support policy
+- [SECURITY.md](SECURITY.md): セキュリティ報告 / Security reporting

@@ -1,34 +1,44 @@
-name: Question
-description: Ask a usage question about OceanGraph.
-title: "[Question]: "
+name: 質問 / Question
+description: 使い方や仕様について質問する / Ask about OceanGraph usage or specifications.
 labels:
   - question
-  - needs triage
 body:
   - type: markdown
     attributes:
       value: |
-        Please check https://docs.oceangraph.io/ before opening a question.
-        Do not include private account details or sensitive data.
+        Issue を作成する前に https://docs.oceangraph.io/ を確認してください。
+        Please check https://docs.oceangraph.io/ before opening an issue.
+        この Issue は公開されます。個人情報や非公開情報は含めないでください。
+        This issue is public. Do not include personal data or private information.
   - type: textarea
     id: question
     attributes:
-      label: Question
-      description: What would you like to understand?
+      label: 質問 / Question
+      description: 何を知りたいですか？ / What would you like to know?
+      placeholder: |
+        例 / Example:
+        Analysis Lab で特定の期間だけを表示する方法を知りたいです。
+        How can I show only a specific date range in Analysis Lab?
     validations:
       required: true
   - type: input
     id: page
     attributes:
-      label: Related page or feature
-      placeholder: "Example: Analysis Lab, data filtering, https://docs.oceangraph.io/..."
+      label: 関連する画面・機能 / Page or feature
+      placeholder: "例 / Example: Analysis Lab, data filtering, https://docs.oceangraph.io/..."
     validations:
       required: false
   - type: textarea
     id: context
     attributes:
-      label: Context
-      description: What were you trying to do?
+      label: 背景・補足 / Context
+      description: 何をしようとしていたか、必要に応じて記入してください。 / Add context if useful.
     validations:
       required: false
-
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 公開 Issue の確認 / Public issue checklist
+      options:
+        - label: パスワード、API キー、トークン、個人情報、非公開情報を含めていません。 / I have not included passwords, tokens, personal data, or private information.
+          required: true

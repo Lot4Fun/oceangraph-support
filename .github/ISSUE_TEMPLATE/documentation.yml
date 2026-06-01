@@ -1,30 +1,43 @@
-name: Documentation feedback
-description: Report unclear, missing, or outdated documentation.
-title: "[Docs]: "
+name: ドキュメント改善 / Documentation improvement
+description: わかりにくい、足りない、古い説明を報告する / Report unclear, missing, or outdated documentation.
 labels:
   - documentation
-  - needs triage
 body:
+  - type: markdown
+    attributes:
+      value: |
+        この Issue は公開されます。個人情報や非公開情報は含めないでください。
+        This issue is public. Do not include personal data or private information.
   - type: textarea
+    id: feedback
+    attributes:
+      label: 改善が必要な点 / Documentation issue
+      description: わかりにくい、足りない、古い、間違っている内容を記入してください。 / What is unclear, missing, outdated, or incorrect?
+      placeholder: |
+        例 / Example:
+        Visual Lab の保存方法がどこに書かれているかわかりませんでした。
+        I could not find where saving in Visual Lab is documented.
+    validations:
+      required: true
+  - type: input
     id: page
     attributes:
-      label: Page
-      description: Which documentation page needs attention?
-      placeholder: "Paste a docs.oceangraph.io URL or describe the page."
+      label: 関連するページ / Page
+      description: ページがわかる場合は URL や名前を記入してください。 / Add the URL or page name if you know it.
+      placeholder: "例 / Example: https://docs.oceangraph.io/..."
     validations:
-      required: true
-  - type: textarea
-    id: issue
-    attributes:
-      label: Issue
-      description: What is unclear, missing, incorrect, or outdated?
-    validations:
-      required: true
+      required: false
   - type: textarea
     id: suggestion
     attributes:
-      label: Suggested change
-      description: What should the documentation say instead?
+      label: 希望する修正 / Suggested change
+      description: 追加を希望する説明や修正案があれば記入してください。 / Add a suggested change if you have one.
     validations:
       required: false
-
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 公開 Issue の確認 / Public issue checklist
+      options:
+        - label: パスワード、API キー、トークン、個人情報、非公開情報を含めていません。 / I have not included passwords, tokens, personal data, or private information.
+          required: true

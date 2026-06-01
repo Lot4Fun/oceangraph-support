@@ -1,50 +1,55 @@
-name: Feature request
-description: Suggest a new feature or an improvement.
-title: "[Feature]: "
+name: 機能要望 / Feature request
+description: 機能や改善案を提案する / Suggest a new feature or improvement.
 labels:
   - feature request
-  - needs triage
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template for user-facing feature requests and workflow
-        improvements. Do not include private data or internal implementation
-        details from private repositories.
+        この Issue は公開されます。パスワード、API キー、トークン、個人情報、
+        非公開リポジトリの内部情報は含めないでください。
+        This issue is public. Do not include passwords, API keys, tokens,
+        personal data, or private repository details.
   - type: textarea
-    id: problem
+    id: request
     attributes:
-      label: Problem or workflow
-      description: What are you trying to do, and what is difficult today?
-      placeholder: Describe the workflow or limitation.
+      label: 希望する機能・改善 / Feature or improvement
+      description: どのような機能や改善を希望しますか？ / What feature or improvement would you like?
+      placeholder: |
+        例 / Example:
+        Visual Lab で、グラフの色をあとから変更できるようにしたいです。
+        I want to change chart colors after creating a graph in Visual Lab.
     validations:
       required: true
-  - type: textarea
-    id: proposal
-    attributes:
-      label: Proposed improvement
-      description: What would you like OceanGraph to support?
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives considered
-      description: Are there existing workarounds or related tools?
-    validations:
-      required: false
   - type: textarea
     id: context
     attributes:
-      label: Additional context
-      description: Add screenshots, links, or examples if useful.
+      label: 背景・課題 / Context
+      description: 現在の利用で困っている点があれば記入してください。 / What is difficult in the current workflow?
+      placeholder: |
+        例 / Example:
+        資料に合わせて色を変えたいのですが、現在は作り直す必要があります。
+        I need to match chart colors to presentation materials, but currently I have to recreate the graph.
+    validations:
+      required: false
+  - type: input
+    id: page
+    attributes:
+      label: 関連する画面・機能 / Page or feature
+      placeholder: "例 / Example: Visual Lab, Analysis Lab, https://docs.oceangraph.io/..."
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 画像・補足 / Screenshots or notes
+      description: スクリーンショット、リンク、例があれば添付または記入してください。 / Attach screenshots, links, or examples if useful.
     validations:
       required: false
   - type: checkboxes
     id: safety
     attributes:
-      label: Public issue checklist
+      label: 公開 Issue の確認 / Public issue checklist
       options:
-        - label: I have not included passwords, tokens, session cookies, or private data.
+        - label: パスワード、API キー、トークン、個人情報、非公開情報を含めていません。 / I have not included passwords, tokens, personal data, or private information.
           required: true
-

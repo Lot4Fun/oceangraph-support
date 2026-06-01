@@ -1,83 +1,78 @@
-name: Bug report
-description: Report something that is not working as expected.
-title: "[Bug]: "
+name: 不具合報告 / Bug report
+description: うまく動かないことを報告する / Report something that is not working as expected.
 labels:
   - bug
-  - needs triage
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug. Do not include passwords, API keys, tokens,
-        session cookies, personal data, or private research data in this public
-        issue.
+        この Issue は公開されます。パスワード、API キー、トークン、個人情報、
+        非公開の研究データは含めないでください。
+        This issue is public. Do not include passwords, API keys, tokens,
+        personal data, or private research data.
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: What is the problem?
-      placeholder: Describe the issue in one or two sentences.
+      label: 不具合の内容 / Summary
+      description: 何が起きましたか？ / What is the problem?
+      placeholder: |
+        例 / Example:
+        Visual Lab でグラフを保存しようとするとエラーになります。
+        An error occurs when I try to save a graph in Visual Lab.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: List the exact steps that trigger the problem.
+      label: 再現手順 / Steps to reproduce
+      description: 同じ状況を再現できる手順を、わかる範囲で記入してください。 / List the steps to reproduce the issue, if known.
       placeholder: |
-        1. Go to ...
-        2. Click ...
-        3. See ...
+        例 / Example:
+        1. Visual Lab を開く / Open Visual Lab
+        2. グラフを作成する / Create a graph
+        3. 保存を押す / Click Save
     validations:
-      required: true
+      required: false
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
-      description: What did you expect to happen?
+      label: 期待した動き / Expected behavior
+      description: 期待していた動作を記入してください。 / Enter the behavior you expected.
     validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual behavior
-      description: What actually happened?
-    validations:
-      required: true
+      required: false
   - type: input
-    id: url
+    id: page
     attributes:
-      label: Page or feature
-      description: Which OceanGraph page, feature, or guide page were you using?
-      placeholder: "Example: Visual Lab, Analysis Lab, https://docs.oceangraph.io/..."
+      label: 関連する画面・機能 / Page or feature
+      description: どの画面や機能で起きましたか？ / Which OceanGraph page or feature were you using?
+      placeholder: "例 / Example: Visual Lab, Analysis Lab, https://docs.oceangraph.io/..."
     validations:
       required: false
   - type: input
     id: browser
     attributes:
-      label: Browser
-      placeholder: "Example: Chrome 125, Safari 17, Firefox 126"
+      label: ブラウザ / Browser
+      placeholder: "例 / Example: Chrome 125, Safari 17, Firefox 126"
     validations:
       required: false
   - type: input
     id: os
     attributes:
-      label: Operating system
-      placeholder: "Example: macOS, Windows, Ubuntu, iOS, Android"
+      label: OS / Operating system
+      placeholder: "例 / Example: macOS, Windows, Ubuntu, iOS, Android"
     validations:
       required: false
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots or recordings
-      description: Drag and drop screenshots or recordings here if they help.
+      label: 画像・録画 / Screenshots or recordings
+      description: スクリーンショットや録画があれば添付してください。 / Attach screenshots or recordings if they help.
     validations:
       required: false
   - type: checkboxes
     id: safety
     attributes:
-      label: Public issue checklist
+      label: 公開 Issue の確認 / Public issue checklist
       options:
-        - label: I have not included passwords, tokens, session cookies, or private data.
+        - label: パスワード、API キー、トークン、個人情報、非公開情報を含めていません。 / I have not included passwords, tokens, personal data, or private information.
           required: true
-
