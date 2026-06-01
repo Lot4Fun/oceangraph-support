@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: OceanGraph 使い方ガイド / OceanGraph App Guide
+  - name: "外部リンク: 使い方ガイド / External: App Guide"
     url: https://docs.oceangraph.io/
-    about: Issue を作成する前に公開ドキュメントを確認してください。 / Check the public documentation before opening a support issue.
-  - name: 非公開サポート / Private support
+    about: Issue は作成されません。公開ドキュメントを開きます。 / No issue will be created. Open the public documentation.
+  - name: "外部リンク: 非公開サポート / External: Private support"
     url: https://github.com/Lot4Fun/oceangraph-support/blob/main/support/SUPPORT.md
-    about: アカウント固有の内容や機密情報はこちらを確認してください。 / Review this page for sensitive or account-specific inquiries.
-  - name: セキュリティ報告 / Security report
+    about: Issue は作成されません。アカウント固有の内容や機密情報の連絡方法を確認します。 / No issue will be created. Review private support options.
+  - name: "外部リンク: セキュリティ報告 / External: Security report"
     url: https://github.com/Lot4Fun/oceangraph-support/blob/main/support/SECURITY.md
-    about: セキュリティ上の問題は公開 Issue ではなくこちらを確認してください。 / Review this page before reporting security issues.
+    about: Issue は作成されません。セキュリティ上の問題の報告方法を確認します。 / No issue will be created. Review security reporting options.
