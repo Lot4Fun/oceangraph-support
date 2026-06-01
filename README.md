@@ -3,48 +3,17 @@
 このリポジトリは、OceanGraph ユーザー向けの公開サポート窓口です。<br>
 This repository is the public support desk for OceanGraph users.
 
-## 対象 / Scope
-
-以下に関する公開 Issue を受け付けます。<br>
-Open a public issue for:
-
-- 不具合報告 / Bug reports
-- 機能要望 / Feature requests
-- 使い方や仕様に関する質問 / Usage or specification questions
-- ドキュメント改善 / Documentation improvements
-
-関連サイト:<br>
-Related sites:
-
-- OceanGraph: `https://oceangraph.io/`
-- OceanGraph App Guide: `https://docs.oceangraph.io/`
-
-## Issue を作成する前に / Before Opening an Issue
-
-まず公開ドキュメントを確認してください。<br>
-Check the public documentation first:
-
-`https://docs.oceangraph.io/`
+## 使い方 / Usage
 
 Issue を作成する場合は、内容に合うテンプレートを選択してください。<br>
 When opening an issue, choose the template that matches your request.
 
-## 公開 Issue に含めない情報 / Do Not Post Sensitive Information
+公開 Issue は誰でも閲覧できます。個人情報、認証情報、非公開情報は含めないでください。<br>
+Public issues can be read by anyone. Do not include personal data, credentials, or private information.
 
-公開 Issue は誰でも閲覧できます。以下の情報は含めないでください。<br>
-Public issues can be read by anyone. Do not include:
+## リンク / Links
 
-- パスワード、API キー、トークン、セッション Cookie / Passwords, API keys, tokens, or session cookies
-- 個人情報や非公開データ / Personal data or private data
-- アカウント固有の内容や機密情報 / Account-specific or sensitive information
-- 非公開リポジトリの内部情報 / Internal details from private repositories
-
-非公開の相談は、公開 Issue ではなく非公開サポートを使用してください。<br>
-Use private support instead of public issues for private inquiries.
-
-`support(at)unvelyze.com`
-
-## 関連ドキュメント / Related Documents
-
+- OceanGraph: `https://oceangraph.io/`
+- OceanGraph App Guide: `https://docs.oceangraph.io/`
 - [SUPPORT.md](SUPPORT.md): サポート方針 / Support policy
 - [SECURITY.md](SECURITY.md): セキュリティ報告 / Security reporting
