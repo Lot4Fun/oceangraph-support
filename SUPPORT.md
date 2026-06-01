@@ -36,4 +36,4 @@ See [SECURITY.md](SECURITY.md) for security reporting details.
 公開ドキュメントは以下で確認できます。<br>
 The public documentation is available at:
 
-`https://docs.oceangraph.io/`
+[https://docs.oceangraph.io/](https://docs.oceangraph.io/)
