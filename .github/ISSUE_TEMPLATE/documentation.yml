@@ -3,11 +3,6 @@ description: わかりにくい、足りない、古い説明を報告する / R
 labels:
   - documentation
 body:
-  - type: markdown
-    attributes:
-      value: |
-        この Issue は公開されます。個人情報や非公開情報は含めないでください。
-        This issue is public. Do not include personal data or private information.
   - type: textarea
     id: feedback
     attributes:
